@@ -46,7 +46,9 @@ export default function FaceLivenessDetectorCore(
   return (
     <View className={DETECTOR_CLASS_NAME} testId={DETECTOR_CLASS_NAME}>
       <FaceLivenessDetectorProvider componentProps={props} service={service}>
-        <Flex direction="column" ref={currElementRef}>
+        <div>
+          <div>FINALLY DONE</div>
+          <Flex direction="column" ref={currElementRef}>
           <LivenessCheck
             instructionDisplayText={instructionDisplayText}
             hintDisplayText={hintDisplayText}
@@ -55,7 +57,7 @@ export default function FaceLivenessDetectorCore(
             errorDisplayText={errorDisplayText}
             components={components}
           />
-        </Flex>
+        </Flex></div>
       </FaceLivenessDetectorProvider>
     </View>
   );
