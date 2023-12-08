@@ -25,7 +25,7 @@ const App = () => {
                 <Heading>Face liveness check</Heading>
                 <Text>
                   You will go through a face verification process to prove that
-                  you are a real person.
+                  you are a real person. Rahil
                 </Text>
               </View>
             );
